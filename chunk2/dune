@@ -1,0 +1,7 @@
+(include_subdirs unqualified)
+
+(library
+  (name chunk2)
+  (wrapped false)
+  (libraries chunk1)
+)
